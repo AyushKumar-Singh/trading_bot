@@ -9,8 +9,8 @@ __pycache__/
 dist/
 build/
 
-# Logs
-logs/
+# # Logs
+# logs/
 
 # Virtual environment
 venv/

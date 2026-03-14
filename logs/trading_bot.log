@@ -1,0 +1,30 @@
+2026-03-14 15:39:30 - INFO - All order parameters validated successfully
+2026-03-14 15:39:30 - INFO - DRY RUN — Order validated but not sent: BTCUSDT BUY MARKET quantity=0.01
+2026-03-14 15:39:41 - INFO - All order parameters validated successfully
+2026-03-14 15:39:41 - INFO - DRY RUN — Order validated but not sent: BTCUSDT SELL LIMIT quantity=0.01 price=60000.0
+2026-03-14 15:39:44 - ERROR - Validation error: Price is required for LIMIT orders
+2026-03-14 15:39:44 - ERROR - Validation error: Price is required for LIMIT orders
+2026-03-14 15:45:53 - INFO - All order parameters validated successfully
+2026-03-14 15:45:53 - INFO - DRY RUN — Order validated but not sent: BTCUSDT BUY MARKET quantity=0.01
+2026-03-14 16:25:01 - INFO - All order parameters validated successfully
+2026-03-14 16:25:01 - INFO - Binance Futures Testnet client initialized successfully
+2026-03-14 16:25:01 - INFO - Placing order BTCUSDT BUY MARKET quantity=0.001
+2026-03-14 16:25:01 - INFO - API request parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-14 16:25:02 - ERROR - Binance API error: Order's notional must be no smaller than 100 (unless you choose reduce only). (code: -4164)
+2026-03-14 16:25:02 - ERROR - Binance API error: Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-14 16:27:27 - INFO - All order parameters validated successfully
+2026-03-14 16:27:28 - INFO - Binance Futures Testnet client initialized successfully
+2026-03-14 16:27:28 - INFO - Placing order BTCUSDT BUY MARKET quantity=0.002
+2026-03-14 16:27:28 - INFO - API request parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2026-03-14 16:27:29 - INFO - API response: {'orderId': 12807367303, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJd88f5eef8e9d7060d26189', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773485847603}
+2026-03-14 16:34:47 - INFO - All order parameters validated successfully
+2026-03-14 16:34:48 - INFO - Binance Futures Testnet client initialized successfully
+2026-03-14 16:34:48 - INFO - Placing order BTCUSDT BUY LIMIT quantity=0.002 price=40000.0
+2026-03-14 16:34:48 - INFO - API request parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.002, 'price': 40000.0, 'timeInForce': 'GTC'}
+2026-03-14 16:34:49 - ERROR - Binance API error: Order's notional must be no smaller than 100 (unless you choose reduce only). (code: -4164)
+2026-03-14 16:34:49 - ERROR - Binance API error: Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-14 16:36:51 - INFO - All order parameters validated successfully
+2026-03-14 16:36:51 - INFO - Binance Futures Testnet client initialized successfully
+2026-03-14 16:36:51 - INFO - Placing order BTCUSDT BUY LIMIT quantity=0.003 price=40000.0
+2026-03-14 16:36:51 - INFO - API request parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.003, 'price': 40000.0, 'timeInForce': 'GTC'}
+2026-03-14 16:36:52 - INFO - API response: {'orderId': 12807495671, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ5c0e3bf24877b26ad12933', 'price': '40000.00', 'avgPrice': '0.00', 'origQty': '0.003', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773486410995}
